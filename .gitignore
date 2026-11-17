@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log.json
+# không bao giờ đưa hồ sơ thật lên: để ngoài kho hoặc trong thư mục này
+private/
+data/
+*.xls
+*.rar
+*.pdf

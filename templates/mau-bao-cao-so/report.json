@@ -1,0 +1,10 @@
+{
+  "_note": "Cấu trúc báo cáo thẩm định kiểu Sở (Word + Excel 6 trang, phân loại A/B/C/D). Chỉ là KHUNG cột, không chứa dữ liệu thật. Sở dùng mẫu khác: chép thư mục, sửa tên trang/cột.",
+  "title": "BÁO CÁO THẨM ĐỊNH BỘ BIỂU VỊ TRÍ VIỆC LÀM – {unit}",
+  "sheets": {"summary": "01_TOM_TAT", "errors": "02_LOI_BAT_BUOC", "warnings": "03_CANH_BAO", "indicators": "04_CHI_SO", "tasks": "05_DOI_CHIEU_NHIEM_VU", "detail": "06_SAI_LECH_20_COT"},
+  "round_names": {"1": "Vòng 1 – Toàn vẹn kỹ thuật", "2": "Vòng 2 – Nhất quán liên biểu", "3": "Vòng 3 – Nghiệp vụ"},
+  "classes": "A – đủ điều kiện trình thẩm định; B – không còn lỗi bắt buộc, còn cảnh báo cần giải trình; C – kỹ thuật đạt, còn lỗi bắt buộc về nghiệp vụ ảnh hưởng số người; D – lỗi kỹ thuật nghiêm trọng hoặc thiếu căn cứ nhiệm vụ, không tiếp nhận.",
+  "finding_columns": ["Mã", "Vòng", "Biểu", "Ô/dòng", "Cột", "Giá trị hiện tại", "Đối chiếu / phát hiện", "Căn cứ", "Mức độ", "Mức xác thực", "Đề nghị"],
+  "task_columns": ["Khoản pháp lý", "Nhiệm vụ", "Mã A1", "Pháp lý ↔ A1", "Số công việc A2", "A1 ↔ A2", "VTVL thực hiện", "Mức xác thực"],
+  "detail_columns": ["STT", "Mã phát hiện", "Vòng", "Nhóm", "Biểu", "Cột", "Dòng", "Ô", "Đối tượng", "Giá trị hiện tại", "Giá trị đối chiếu", "Chênh lệch", "Nguồn đối chiếu", "Căn cứ", "Mức độ", "Mức xác thực", "Ảnh hưởng số người", "Đề nghị xử lý", "Trách nhiệm", "Trạng thái"]
+}

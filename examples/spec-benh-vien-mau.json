@@ -1,0 +1,33 @@
+{
+  "_note": "Ví dụ spec cho scripts/fill_template.py – DỮ LIỆU GIẢ (Bệnh viện Mẫu). Thay template/output bằng đường dẫn của bạn.",
+  "template": "mau-bo-bieu-30000-dong.xlsx",
+  "output": "bo-bieu-de-xuat-benh-vien-mau.xlsx",
+  "archive": [
+    {"source": "1. A1_NhiemVu", "target": "CU_A1_NhiemVu", "first_row": 2, "last_row": 300, "columns": "A:G",
+     "title": "BẢN CŨ CỦA ĐƠN VỊ – biểu A1 trước khi thay (giữ để đối chiếu)"}
+  ],
+  "fill": [
+    {"sheet": "1. A1_NhiemVu", "start_row": 3, "clear_to_row": 300, "columns": ["A", "B", "C", "D", "E", "F", "G"],
+     "rows": [
+       {"A": "TAM-BVM-A1-001", "B": "Khám bệnh, chữa bệnh nội trú và ngoại trú", "C": "Bệnh viện Mẫu",
+        "D": "Quyết định số 00/2026/QĐ-MAU (văn bản giả), Điều 2 khoản 1", "E": "01/10/2025-30/9/2026",
+        "F": "Tiếp tục thực hiện", "G": "Quyết định số 00/2026/QĐ-MAU (văn bản giả)"},
+       {"A": "TAM-BVM-A1-002", "B": "Chăm sóc người bệnh", "C": "Bệnh viện Mẫu",
+        "D": "Quyết định số 00/2026/QĐ-MAU (văn bản giả), Điều 2 khoản 2", "E": "01/10/2025-30/9/2026",
+        "F": "Tiếp tục thực hiện", "G": "Quyết định số 00/2026/QĐ-MAU (văn bản giả)"}
+     ]},
+    {"sheet": "2. A2_CongViec", "start_row": 3, "clear_to_row": 300, "columns": ["A", "B", "C", "D", "E", "F"],
+     "rows": [
+       {"A": "TAM-BVM-CV-001", "B": "TAM-BVM-A1-001", "C": "", "D": "Khám bệnh ngoại trú", "E": "Lượt khám", "F": "lượt"},
+       {"A": "TAM-BVM-CV-002", "B": "TAM-BVM-A1-002", "C": "", "D": "Chăm sóc người bệnh nội trú", "E": "Ngày điều trị", "F": "ngày"}
+     ]}
+  ],
+  "cells": [{"sheet": "1. A1_NhiemVu", "cell": "F1", "value": "BẢN ĐỀ XUẤT để đơn vị đối chiếu – xem trang GHI_CHU_DE_XUAT"}],
+  "new_sheets": [{"name": "GHI_CHU_DE_XUAT", "rows": [["Mục", "Nội dung"],
+    ["Tính chất", "BẢN ĐỀ XUẤT để đơn vị đối chiếu, chưa phải hồ sơ chính thức."],
+    ["Mã tạm", "Mã TAM- do người lập tự đặt, duy nhất; đơn vị thay bằng mã chính thức."],
+    ["Số liệu", "Khối lượng, thời gian, số người: để trống – đơn vị cung cấp."]],
+    "col_widths": [24, 100], "header_rows": [1]}],
+  "styles": {"header": "1. A1_NhiemVu!A2", "body": "1. A1_NhiemVu!B3"},
+  "active_sheet": "GHI_CHU_DE_XUAT"
+}

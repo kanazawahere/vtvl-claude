@@ -1,0 +1,5 @@
+#!/bin/sh
+# Chặn commit có dữ liệu cá nhân / dữ liệu khách. Cài: git config core.hooksPath .githooks
+files=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$files" ] && exit 0
+python3 scripts/pii_scan.py $files || { echo "pre-commit: pii_scan FAIL – commit bị chặn."; exit 1; }

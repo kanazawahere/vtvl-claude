@@ -1,0 +1,10 @@
+# Biểu thức chính quy cho phép (mỗi dòng một mẫu). Chỉ thêm thuật ngữ CÔNG KHAI, kèm lý do ở PR.
+# Đơn vị giả dùng trong ví dụ / kiểm thử
+(Mẫu|MẪU|Giả|GIẢ|Ví dụ)
+# Cơ quan Trung ương ban hành căn cứ (công khai)
+^Ban (Tổ|Bí|Chấp|Cán)
+^Ủy ban nhân dân$
+# Tên thương hiệu người duy trì kho (công khai, có chủ ý)
+Phat Claude
+# Tên công cụ / thuật ngữ
+^(Claude|GitHub|Excel|Word)

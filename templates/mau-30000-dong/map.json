@@ -1,0 +1,32 @@
+{
+  "_note": "Bản đồ cột của mẫu bộ biểu VTVL 30.000 dòng (bản 19/10/2026, Hướng dẫn 07-HD/BTCTW). Tỉnh/đơn vị dùng mẫu khác: chép thư mục này thành templates/<ten-mau>/ rồi sửa tên trang, chữ cột.",
+  "name": "mau-30000-dong",
+  "first_row": 3,
+  "hours_per_year": 1904,
+  "sheets": {
+    "A1": {"name": "1. A1_NhiemVu", "cols": {"code": "A", "name": "B", "agency": "C", "basis": "D", "period": "E", "status": "F", "source": "G"}},
+    "A2": {"name": "2. A2_CongViec", "cols": {"code": "A", "task": "B", "vtvl": "C", "job": "D", "product": "E", "unit": "F", "quality": "G", "basis": "H"}},
+    "B1": {"name": "3. B1_KhoiLuong", "cols": {"job": "A", "vtvl": "B", "qty": "C", "minutes": "D", "extra_hours": "E", "hours": "F", "total_hours": "G", "qty_source": "H", "time_source": "I", "status": "J", "period": "K", "product": "L", "check": "R"}},
+    "B2": {"name": "4. B2_CT_TacDong", "cols": {"job": "A", "vtvl": "B", "kind": "C", "evidence": "J", "status": "L"}},
+    "C1": {"name": "6. C1_VTVL", "cols": {"code": "A", "name": "B", "staff_type": "C", "decision": "D", "quota": "E", "regime": "F", "status": "G"}},
+    "C2": {"name": "7. C2_NangLuc", "cols": {"code": "A", "duty": "B", "skill": "C", "qualification": "D", "basis": "F"}},
+    "C3": {"name": "8. C3_NhuCau", "cols": {"vtvl": "A", "method": "B", "b1_hours": "C", "b2_hours": "D", "net_hours": "E", "quota": "F", "people_pp2": "G", "people_pp1": "H", "people_pp3": "I", "people_need": "J", "explain": "K", "status": "L"}},
+    "D1": {"name": "9. D1_NhanLuc", "cols": {"person": "A", "vtvl": "B", "staff_type": "C", "hours": "D", "source": "H"}},
+    "D2": {"name": "10. D2_PhuongAn", "cols": {"vtvl": "A", "year": "B", "need": "C", "current": "D", "assigned": "E", "proposal": "N"}},
+    "DM": {"name": "11. DM_SAN_PHAM", "cols": {"code": "A", "name": "B", "unit": "C", "group": "D", "minutes": "E"}}
+  },
+  "input_columns": {
+    "1. A1_NhiemVu": "ABCDEFG",
+    "2. A2_CongViec": "ABCDEFGH",
+    "3. B1_KhoiLuong": "ACDEHIJKLS",
+    "4. B2_CT_TacDong": "ACDEFGIJKLMQRS",
+    "6. C1_VTVL": "ABCDFGHIJ",
+    "7. C2_NangLuc": "ABCDEFG",
+    "8. C3_NhuCau": "ABHIJKL",
+    "9. D1_NhanLuc": "ABCEFGHIK",
+    "10. D2_PhuongAn": "ABDEFGHIN",
+    "11. DM_SAN_PHAM": "ABCDEFGHIJ"
+  },
+  "verified_words": ["Đã kiểm chứng"],
+  "estimate_words": ["Kiểm đếm, ước lượng thực tế", "Ước lượng tham khảo", "Chưa kiểm chứng"]
+}
